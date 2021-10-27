@@ -28,7 +28,7 @@ import org.springframework.web.bind.annotation.RestController;
  *
  * @author skybar
  */
-@CrossOrigin(origins = "http://localhost:8088")
+
 
 @RestController
 @RequestMapping("/api")
