@@ -28,7 +28,7 @@ import org.springframework.web.bind.annotation.RestController;
  *
  * @author skybar
  */
-
+@CrossOrigin(origins = "https://mhdbashar.github.io/")
 
 @RestController
 @RequestMapping("/api")
