@@ -1,0 +1,15 @@
+spring:  
+  application:
+    name: Tutorial-MS
+#  autoconfigure:
+#    exclude: org.springframework.boot.autoconfigure.mongo.embedded.EmbeddedMongoAutoConfiguration
+  data:
+    mongodb:
+        uri: mongodb+srv://monguser:lSsgKP4ZFcr58jDD@cluster-ds.nc0cd.mongodb.net/tutorialDB?retryWrites=true&w=majority
+        database: tutorialDB
+#       
+
+#eureka:
+#    client:
+#        serviceUrl:
+#            defaultZone: ${EUREKA_URL:http://localhost:8761/eureka/}
